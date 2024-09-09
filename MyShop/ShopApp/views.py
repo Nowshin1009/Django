@@ -9,16 +9,19 @@ def homepage(request):
     return render(request,"index.html",page)
 
 def contact(request):
+    page={"contact":"Contact Us","content":"A shop , Thousands of happiness"}
     email="contact@example.com",
     social_profiles=[
         "Facebook: fb.m\example",
         "Twitter: hello.\tweet",
         "LinedIN: nowshin.\linkedin"
     ]
-    return render(request,"contact.html",{"emailaddress":email},{"socialprofiles":social_profiles})
+    return render(request,"contact.html",page,{"emailaddress":email},{"socialprofiles":social_profiles})
 
 def about(request):
-    return render(request,"about.html")
+    page={"about":"About","content":"A shop , Thousands of happiness"}
+    return render(request,"about.html",page)
 
 def order(request):
-    return render(request,"order.html")
+    page={"Order":"Order","content":"A shop , Thousands of happiness"}
+    return render(request,"order.html",page)
