@@ -10,13 +10,13 @@ def homepage(request):
 
 def contact(request):
     page={"contact":"Contact Us","content":"A shop , Thousands of happiness"}
-    email="contact@example.com",
-    social_profiles=[
-        "Facebook: fb.m\example",
-        "Twitter: hello.\tweet",
-        "LinedIN: nowshin.\linkedin"
-    ]
-    return render(request,"contact.html",page,{"emailaddress":email},{"socialprofiles":social_profiles})
+    # email="contact@example.com",
+    # social_profiles=[
+    #     "Facebook: fb.m\example",
+    #     "Twitter: hello.\tweet",
+    #     "LinedIN: nowshin.\linkedin"
+    # ]
+    return render(request,"contact.html",page)
 
 def about(request):
     page={"about":"About","content":"A shop , Thousands of happiness"}
