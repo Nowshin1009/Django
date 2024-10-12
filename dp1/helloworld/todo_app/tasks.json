@@ -1,0 +1,42 @@
+[
+    {
+        "model":"todo_app.task",
+        "pk":1,
+        "fields":{
+            "title":"Buy milk",
+            "description":"Get 2kg milk from the store.",
+            "completed":false,
+            "created_at":"2022-01-01 12:00:00"
+        }
+    },
+    {
+        "model":"todo_app.task",
+        "pk":2,
+        "fields":{
+            "title":"Do parking",
+            "description":"Park the car outside the mall",
+            "completed":false,
+            "created_at":"2022-01-01 12:00:00"
+        }
+    },
+    {
+        "model":"todo_app.task",
+        "pk":3,
+        "fields":{
+            "title":"Do shopping",
+            "description":"I'll go to shopping.",
+            "completed":false,
+            "created_at":"2022-01-01 12:00:00"
+        }
+    },
+    {
+        "model":"todo_app.task",
+        "pk":4,
+        "fields":{
+            "title":"Study for exam",
+            "description":"Study 2 hour.",
+            "completed":false,
+            "created_at":"2022-01-01 12:00:00"
+        }
+    }
+]
